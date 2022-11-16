@@ -1,0 +1,28 @@
+.table-container{
+    margin-inline: auto;
+    width: min(90%, 95rem);
+}
+
+.blank{
+    background-color: #252a34;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+table{
+    margin-inline: auto;
+    width: min(95%, 100rem);
+}
+
+td{
+    background: #eaeaea;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: black;
+    text-align: center;
+}
+
