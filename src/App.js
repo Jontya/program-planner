@@ -5,9 +5,7 @@ import ProgramPlanner from "./ProgramPlanner"
 
 function App() {
     return (
-        <div className="App">
-            <ProgramPlanner> </ProgramPlanner>
-        </div>
+        <ProgramPlanner> </ProgramPlanner>
     );
 }
 
