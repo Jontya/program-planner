@@ -4,7 +4,23 @@
 }
 
 .blank{
-    background-color: #252a34;
+    background-color: #595959;
+}
+
+.tables{
+    background: black;
+}
+
+.semester1{
+    position: relative;
+    float: left;
+    width: min(49.5%, 50rem);
+}
+
+.semester2{
+    position: relative;
+    float: right;
+    width: min(49.5%, 50rem);
 }
 
 h1{
@@ -13,16 +29,21 @@ h1{
     text-underline-offset: 10px;
 }
 
+th{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
 table{
-    margin-inline: auto;
-    width: min(95%, 100rem);
+    border-spacing: 5px 20px;
 }
 
 td{
     background: #eaeaea;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    font-weight: 600;
     color: black;
+    text-decoration: bold;
     text-align: center;
+    height: 85px;
+    border-radius: 2px;
 }
-
